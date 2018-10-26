@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Example extends Component {
 
     state = {
-        counter: 'Evil merge guy mcgee'
+        counter: "oh shit it's different",
+        somethingNew: 34
     };
   render() {
     return (
