@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Example extends Component {
-
-    state = {
-        counter: "oh shit it's different",
-        somethingNew: 34
-    };
+  state = {
+    counter: "oh shit it's different",
+    somethingNew: 34
+  };
   render() {
     return (
       <div className="ChuckTesta">
-          {this.state.counter}
-          <h1>Something else</h1>
+        {this.state.counter}
+        <h1>Something else here</h1>
       </div>
     );
   }
