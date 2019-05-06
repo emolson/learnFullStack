@@ -7,7 +7,7 @@ const passport = require("passport");
 
 const validateRegisterInput = require("../../validation/register");
 const validateLoginInput = require("../../validation/login");
-const User = require("../../modules/User");
+const User = require("../../models/User");
 const keys = require("../../config/keys");
 
 // @route      GET api/users/test
